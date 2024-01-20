@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.adlin.hitboxesmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "IngameRenderMixin",
+    "KeyboardMixin",
+    "RenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
