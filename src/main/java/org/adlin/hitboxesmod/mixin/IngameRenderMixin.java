@@ -13,10 +13,10 @@ import java.awt.*;
 
 @Mixin(InGameHud.class)
 public class IngameRenderMixin {
-    @Inject(at = @At(value = "RETURN"), method = "render", cancellable = true)
-    public void render(DrawContext context, float tickDelta, CallbackInfo ci) {
-        if (!config.isPanic()) {
-            context.drawText(MinecraftClient.getInstance().textRenderer ,"Hitbox enable", 10, 10, new Color(0xFA63FF).getRGB() , true);
-        }
-    }
+//    @Inject(at = @At(value = "RETURN"), method = "render", cancellable = true)
+//    public void render(DrawContext context, float tickDelta, CallbackInfo ci) {
+//        if (!config.isPanic()) {
+//            context.drawText(MinecraftClient.getInstance().textRenderer ,"Hitbox enable", 10, 10, new Color(0xFA63FF).getRGB() , true);
+//        }
+//    }
 }
